@@ -1,0 +1,543 @@
+/* @font-face{
+    font-family: 'SpecialGothicExpandedOne-Regular';
+    src: url(../fonts/SpecialGothicExpandedOne-Regular.ttf)/
+     
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: letter-box;
+}
+
+body{
+    background-image: url(../images/body.png);
+    font-family: 'SpecialGothicExpandedOne-Regular'; 
+}
+
+ul li {
+    list-style: none;
+    
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+
+/* header starts here */
+#navbar{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: white;
+}
+#navbar .navwrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar .logo{
+    
+}
+#navbar .menu ul{
+    display: flex;
+    
+    
+}
+#navbar .menu ul li{
+    
+}
+#navbar .menu ul li a{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #014C98;
+    line-height: 24px;
+    width: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-right: 50px;
+
+
+}
+#navbar .conbtn{
+    padding: 15px 40px;
+    border-color: #014C98;
+    border-radius: 40px;
+}
+#navbar .conbtn a{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #014C98;
+    
+    
+}
+#navbar .conbtn a:hover{
+    background-color: #014C98;
+    color: white;
+
+}
+
+        /* header ends here */
+
+
+
+    /* section 1 banner starts here */
+
+#banner{
+
+}
+#banner .bannerwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner .bannerleft {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 44px;
+    width: 522px;
+    color: white;
+    margin-left: 40px;
+}
+#banner .bannerleft span{
+    color: #ACE5FF;
+}
+
+#banner .bannerbtn{
+    padding: 15px 40px;
+    background-color: #0F90CA;
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+
+}
+#banner .bannerbtn a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+    /* banner section ends here */
+
+/* Services section starts here */
+
+#services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+    #services .servicetop{
+    text-align: center;
+}
+#services .servicetop h2{
+    font-family: sans-serif;
+    font-size: 33px;
+    font-weight: 400px;
+    line-height: 39px;
+    color: #ACE5FF;
+}
+#services .servicetop p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+}
+#services .serbtn{
+    padding: 15px 40px;
+    background-color: #014C98;
+    border-radius: 30px;
+    border: none;
+    margin: 10px 0px;
+}
+#services .serbtn a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+        /* row columns work 
+        starts here */
+
+#services .servicecolumns{
+    display: flex;
+    margin: 0 auto;
+}
+#services .servicecolumns .column1{
+    padding: 32px 36px;
+    background-color: white;
+    border-radius: 8px;
+    width: 225px;
+    margin: 20px 20px;
+
+}
+#services .servicecolumns .column1 h3{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700px;
+    color: #252B42;
+    line-height: 22px;
+    letter-spacing: 1px;
+    width: 116px;
+    margin-top: 18px;
+}
+#services .servicecolumns .column1 p{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 18px;
+    color: #737373;
+    letter-spacing: 1.8px;
+    width: 210px;
+    margin-top: 32px;
+    
+}
+
+
+    /* Services section ends here */
+
+
+    /* About section starts here */
+
+#about{
+    padding: 100px 0;
+    
+}
+
+#about .abouttop{
+    text-align: center;
+
+    
+}
+#about .abouttop h2{
+    font-family: sans-serif;
+    font-size: 33px;
+    font-weight: 400px;
+    line-height: 39px;
+    color: #ACE5FF;
+    
+}
+#about .abouttop p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 22px;
+    color: #7e8299 ;
+    margin: 17px 0px;
+    
+    text-align: justify;
+
+    
+}
+#about .abouttop .aboutbtn{
+    padding: 15px 40px;
+    background-color: #014C98;
+    border-radius: 30px;
+    border: none;
+    margin: 17px 0px;
+}
+#about .abouttop .aboutbtn a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+}
+#about .aboutcolumns{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#about .aboutcolumns .column2{
+    padding: 32px 36px;
+    background-color: white;
+    border-radius: 8px;
+    width: 225px;
+    margin: 20px 20px;
+    
+}
+#about .aboutcolumns .column2 h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 23px;
+    color: #001099;
+    width: 167px;
+
+}
+#about .aboutcolumns .column2 ul li{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    color: #3f4254;
+    line-height: 18px;
+    width: 58px;
+    margin-top: 20px;
+}
+#about .aboutcolumns .column3{
+    padding: 32px 36px;
+    background-color: #0F90CA;
+    border-radius: 8px;
+    width: 225px;
+    margin: 0px 20px;
+    
+}
+#about .aboutcolumns .column3 h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 23px;
+    color: white;
+    width: 167px;
+
+}
+#about .aboutcolumns .column3 ul li{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    color: #3f4254;
+    line-height: 18px;
+    width: 58px;
+    margin-top: 20px;
+}
+
+
+
+    /* About section ends here */
+
+    /* review section starts here */
+
+ #review{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+
+    }
+#review .reviewtop{
+    text-align: center;
+}
+#review .reviewtop h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 50px;
+    letter-spacing: .2px;
+    color: #001049;
+    padding-bottom: 20px;
+    
+}
+#review .reviewtop h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    letter-spacing: .2px;
+    color: #717074;
+    padding-bottom: 30px;
+    
+
+}
+#review .reviewcolumn{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#review .reviewcolumn .reviewone{
+    padding: 32px 36px;
+    background-color: white;
+    border-radius: 8px;
+    width: 284px;
+    margin: 20px 20px;
+}
+#review .reviewcolumn .reviewone h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 29px;
+    color: #001049;
+    width: 272px;
+}
+#review .reviewcolumn .reviewone p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 16px;
+    color: #a1a5b7;
+    width: 282px;
+    padding-bottom: 25px;
+    
+}
+
+#review .review-wrapper{
+    display: flex;
+
+}
+#review .review-wrapper .img{
+    margin-right: 15px;
+}
+#review .review-wrapper .review-details p{
+    color: #009ef7;
+}
+#review .frame{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+    /* review section ends here */
+
+
+    /* partners section starts her */
+#partners{
+    padding: 100px 0;
+    background-color: white;
+}
+#partners .partner-one{
+    text-align: center;
+    width: 1044px;
+    margin: 0 auto;
+    
+}
+
+/* WIDTH SIDE CHOLE ASE... I CAN NOT KEEP IT CENTER AND BREAK THE LINES */
+
+
+#partners .partner-one h2{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 50px;
+    letter-spacing: .2px;
+    color: #001049;
+    padding-bottom: 20px;
+    
+}
+#partners .partner-one h4{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 50px;
+    letter-spacing: .2px;
+    color: #717074;
+    width: 720px;
+    margin: 0 auto;
+    
+    /* padding-bottom: 20px; */
+    
+}
+#partners .partner-two{
+   width: 796px;
+   margin: 0 auto;
+}
+#partners .partner-two img{
+    margin: 30px;
+}
+
+
+#partners .partner-three{
+   width: 796px;
+   margin: 0 auto;
+}
+#partners .partner-three img{
+    margin: 30px;
+}
+
+
+/* partners section ends her */
+
+    /* footer section starts here */
+
+#footer{
+    padding: 100px 0;
+}
+#footer .footer-wrapper{
+    display: flex;
+    align-items: initial;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+#footer .footer-wrapper h2{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 32px;
+    letter-spacing: .1px;
+    color: white;
+    
+    padding-bottom: 20px;
+}
+#footer .footbtn{
+    padding: 10px;
+    background-color: #0F90CA;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+#footer .footbtn a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+    width: 115px;
+    
+}
+#footer .footer-two ul li a{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #c8e0eb;
+    text-decoration: none;
+}
+#footer .footer-three ul li a{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #c8e0eb;
+    text-decoration: none;
+}
+
+
+   
+/* footer section ends here */
+
+#copyright{
+
+    padding: 20px 0;
+    background-color: white;
+    text-align: center;
+    
+    
+}
+#copyright a{
+  font-family: "Playwrite RO", cursive;
+  
+    /* font-family: "Special Gothic Expanded One", sans-serif; */
+    /* font-family: sans-serif; */
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    text-decoration: none;
+    color: #001049;
+}
